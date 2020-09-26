@@ -4,13 +4,16 @@
 }
 
 body {
-    background: lightslategray;
+    background: black;
 }
 
-
+/* NAVIGATION */
 .topnav {
+    margin-top: 1%;
     background-color: black;
     overflow: hidden;
+    border-style: solid;
+    border-width: 0.2rem;
 }
   
 .topnav a {
@@ -26,9 +29,7 @@ body {
 }
   
   .topnav a:hover {
-    color: white;
-    border-top-style: solid;
-    border-top-width: 0.2rem;
+    color: gray;;
 }
   
 .topnav a.active {
@@ -64,30 +65,101 @@ body {
     text-align: left;
 }
 }
-
+/* HEADER */
 .header {
+    padding: 3%;
+    margin: 1%;
     background-image: url('assets/cover.jpg');
-    background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
+    
     font-family: 'Audiowide', cursive;
 }
 
 .headline-1 {
     color: white;
     text-align: center;
-    font-size: 5rem;
+    font-size: 3rem;
 }
 
 .headline-2 {
-    
     color: white;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
 }
 
+.headline-3 {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.headline-3 a {
+    text-decoration: none;
+    color: white;
+}
+/* CONTENT */
 .content {
     background: black;
     color: white;
     font-family: 'Oswald', sans-serif;
 }
+
+hr {
+    color: white;
+    margin: 2%;
+}
+
+.content h1 {
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 2.5%;
+}
+
+ul {
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.stats {
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.information {
+    padding-left: 25%;
+    padding-right: 25%;
+    font-size: 1.4rem;
+}
+
+.information p {
+    padding-top: 1%;
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+    width: 0.5rem;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 0rem;
+  }
+
+  /* FOOTER */
+
+  .footer {
+      text-align: center;
+      font-family: 'Oswald', sans-serif;
+      color: white;
+  }
+
+  .footer a {
+      text-decoration: none;
+      color: white;
+  }
